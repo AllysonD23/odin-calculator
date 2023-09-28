@@ -1,0 +1,89 @@
+body,
+#calculator,
+#bottom-row,
+#numbers,
+#numbers-row-one,
+#numbers-row-two,
+#numbers-row-three,
+#numbers-row-four,
+#operator-buttons {
+    display: flex;
+    text-align: center;
+}
+
+body {
+    justify-content: center;
+    background-color: rgb(30, 30, 50);
+}
+
+#numbers {
+    flex-direction: column;
+}
+
+#top-row {
+    width: 100%;
+}
+
+#bottom-row {
+    width: 100%;
+}
+
+#operator-buttons {
+    flex-direction: column;
+}
+
+#calculator {
+    background-color: rgb(249, 170, 184);
+    border-radius: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    height: 550px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+#calculator-display {
+    background-color: rgb(179, 179, 179);
+    border-radius: 30px;
+    font-size: 80px;
+    text-align: right;
+    margin: 40px;
+    padding-top: 20px;
+}
+
+#calculator,
+#calculator-display,
+.button {
+    border-color: rgb(99, 0, 53);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 16px;
+    margin: 10px;
+}
+
+.button {
+    background-color: white;
+    font-size: 50px;
+    width: 100%;
+    height: auto;
+}
+
+#clear-button {
+    background-color: rgb(172, 237, 119);
+    color: rgb(40, 122, 122);
+
+}
+
+#equals-button {
+    background-color: rgb(255, 246, 119);
+    color: rgb(40, 122, 122);
+}
+
+#divide-button,
+#multiply-button,
+#subtract-button,
+#add-button {
+    background-color: rgb(126, 232, 232);
+    color: rgb(40, 122, 122);
+}
